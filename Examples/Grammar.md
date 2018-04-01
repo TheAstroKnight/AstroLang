@@ -24,7 +24,7 @@ A block of code. This block of code can contain any valid code.
 ## Declarations
 ### Class declaration
 `class <class identifier> { <codeblock> }` <br />
-*Has to contain a Main method.*
+*If it is the Main class it has to contain a Main method.*
 
 ### Method/function declaration
 `function <function type> <name identifier>(<variables>) { <codeblock> }` <br />
