@@ -39,6 +39,12 @@ A block of code. This block of code can contain any valid code.
 <br />
 
 ## Statements
+### Comments
+`// This is a single line comment.` <br />
+*A single line comment that is ignored by the compiler.* <br />
+`/* This is a multi line comment. */` <br />
+*A multi line comment that is ignored by the compiler.*
+
 ### Import statement
 `import <location>;` <br />
 *Imports a file. This import needs to be stored in a variable later.* <br />
