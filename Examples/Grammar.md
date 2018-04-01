@@ -1,12 +1,13 @@
-## identifier
+### identifier
 Starts with a letter. Proceeding characters are letters, numbers, or a mix of letters and numbers.
 
-## type
+### type
 Primitive type. Examples: string, integer, boolean, etc.
 
-## value
+### value
 Either an identifier (for a variable), or a literal (for example: 1, "Hello Astro").
 
+<br />
 
 ## Declarations
 ### Class declaration
