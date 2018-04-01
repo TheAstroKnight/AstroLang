@@ -51,6 +51,11 @@ A block of code. This block of code can contain any valid code.
 `import <location> as <name identifier>;` <br />
 *Imports a file. This import is stored in a variable. `<name identifier>` is the variable name.*
 
+### Return statement
+`return <value>;` <br />
+*Returns a value. This is required in all functions that are not of the `void` type.* <br />
+*Value can be a variable or a literal.*
+
 ### Print statement
 `System.print(<value>);` <br />
 *Prints a value. This can be an integer or a string.*
