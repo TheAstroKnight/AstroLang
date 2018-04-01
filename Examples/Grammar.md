@@ -23,36 +23,36 @@ A block of code. This block of code can contain any valid code.
 
 ## Declarations
 ### Class declaration
-`class <class identifier> { <codeblock> }`
+`class <class identifier> { <codeblock> }` <br />
 *Has to contain a Main method.*
 
 ### Method/function declaration
-`function <function type> <name identifier>(<variables>) { <codeblock> }`
+`function <function type> <name identifier>(<variables>) { <codeblock> }` <br />
 *Creates a function that is callable from any file, as long as it is linked.*
 
 ### Variable declaration
-`var <type> <name identifier>;`
-*Creates an empty variable.*
-`var <type> <name identifier> = <value>;`
+`var <type> <name identifier>;` <br />
+*Creates an empty variable.* <br />
+`var <type> <name identifier> = <value>;` <br />
 *Creates a variable containing a value.*
 
 <br />
 
 ## Statements
 ### Import statement
-`import <location>;`
-*Imports a file. This import needs to be stored in a variable later.*
-`import <location> as <name identifier>;`
+`import <location>;` <br />
+*Imports a file. This import needs to be stored in a variable later.* <br />
+`import <location> as <name identifier>;` <br />
 *Imports a file. This import is stored in a variable. `<name identifier>` is the variable name.*
 
 ### Print statement
-`System.print(<value>);`
+`System.print(<value>);` <br />
 *Prints a value. This can be an integer or a string.*
 
 ### If, elseif, else statement
-`if (<condition>) { <codeblock> }`
-*If the condition is true, it will execute the codeblock.*
-`if (<condition>) { <codeblock> } else { <codeblock> }`
-*If the condition is false, it will execute the codeblock inside the `else` statement.*
-`if (<condition>) { <codeblock> } elseif (<condition>) { <codeblock> } else { <codeblock> }`
+`if (<condition>) { <codeblock> }` <br />
+*If the condition is true, it will execute the codeblock.* <br />
+`if (<condition>) { <codeblock> } else { <codeblock> }` <br />
+*If the condition is false, it will execute the codeblock inside the `else` statement.* <br />
+`if (<condition>) { <codeblock> } elseif (<condition>) { <codeblock> } else { <codeblock> }` <br />
 *If the condition is false, it will check if the condition of the `elseif` statement is true. If it is, it will execute the codeblock inside it. If false, it will execute the `else` statement's codeblock.*
